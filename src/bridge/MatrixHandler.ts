@@ -136,7 +136,7 @@ export class MatrixHandler {
             }
         }
         catch (err) {
-            req.log.debug(`Not a plumbed room: Error retrieving m.room.plumbing (${err.data.error})`);
+            req.log.debug(`Not a plumbed room: Error retrieving m.room.plumbing`);
         }
 
         // clobber any previous admin room ID
